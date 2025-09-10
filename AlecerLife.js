@@ -23,3 +23,13 @@ if (hoursStudy >= 5) {
 } else {
   console.log("You need to study more.");
 }
+
+//Loops
+const subjects = [
+  "Programming 2",
+  "Data Structures",
+  "Discrete Mathematics",
+  "Web Development",
+  "Computer Organization",
+  "Human-Computer Interaction"
+];
