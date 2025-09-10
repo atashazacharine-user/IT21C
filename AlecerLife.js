@@ -39,3 +39,19 @@ console.log("My Subjects This Semester:");
 for (let i = 0; i < subjects.length; i++) {
   console.log('- ${subjects[i]}');
 }
+
+//Functions
+function studentSummary() {
+  const studyNote = hoursStudy >= 5 ? 
+    "Great! You studied enough today." : 
+    "You need to study more.";
+  return `Student Summary:
+Name: ${name}
+Course: ${course}, ${yearLevel}
+Sleep: ${hoursSleep} hours
+Study: ${hoursStudy} hours
+Total Routine: ${totalDailyHours} hours
+Note: ${studyNote}`;
+}
+
+console.log("\n" + studentSummary());
