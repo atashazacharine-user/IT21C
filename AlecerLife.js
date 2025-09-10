@@ -18,6 +18,7 @@ console.log("Hours of Study:", hoursStudy);
 console.log("Total Daily Routine Hours:", totalDailyHours);
 
 //Conditions
+
 if (hoursStudy >= 5) {
   console.log("Great! You studied enough today.");
 } else {
@@ -33,3 +34,8 @@ const subjects = [
   "Computer Organization",
   "Human-Computer Interaction"
 ];
+
+console.log("My Subjects This Semester:");
+for (let i = 0; i < subjects.length; i++) {
+  console.log('- ${subjects[i]}');
+}
